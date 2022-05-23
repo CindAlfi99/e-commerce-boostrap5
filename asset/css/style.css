@@ -1,0 +1,108 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #000000;
+    border-bottom: silver;
+}
+.nav-item{
+    margin-right: 20px;
+    font-weight: 200;
+}
+/* .nav-item a{
+    color: #F9B234 !important ;
+    font-weight: 600;
+} */
+.nav-item span{
+    color: #0D16FD;
+    font-weight: 600;
+}
+/* carousel */
+.carousel-inner{
+    height: 450px;
+    background-color: #000000;
+    color: white;
+    padding-top: 25px;
+}
+.gambar h3{
+    color: #1B2690;
+    font-family: 'Lora';
+    font-weight: bold;
+}
+.gambar{
+    background-color: #C4C4C4;
+}
+.figure h3{
+    font-weight: bold;
+}
+.figure-img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+}
+.figure-img{
+    position: relative;
+    
+}
+.figure-img:hover a{
+    opacity: 1;
+    transition: 0.3s;
+}
+.designer h3{
+    color: #1B2690;
+    font-family: 'Lora';
+    font-weight: bold;   
+}
+/* breadcrumb */
+.breadcrumb{
+    margin-top: 50px;
+}
+.product-thumbnail-container{
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-50px);
+
+}
+figcaption a{
+    margin-left: 11px;
+   
+}
+.product-thumbnail-container:hover {
+    text-decoration:none;
+}
+.btn-product{
+    margin: 50px 0;
+}
+.btn-product .btn{
+display: block;
+margin: 10px 0;
+}
+.desc{
+    background-color: #c4c4c4;
+
+}
+.desc .tab-content {
+    background-color: white;
+    padding: 3px;
+    border:  1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+.desc .tab-content p{
+    font-size: 16px;
+    font-weight: 200;
+    color:#868686;
+    line-height: 28px;
+}
+.tabe-pane h5{
+  margin: 0;
+}
+.product-review{
+    height: 330px;
+    overflow: scroll;
+}
